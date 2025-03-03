@@ -1,0 +1,161 @@
+/* Body Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./money-png-40452.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+/* App Styles */
+.App {
+  background-color: white;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-logo {
+  width: 100%;
+  height: 230px;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.header-navigation a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.chart-container {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.chart-container.animate {
+  opacity: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Header Styles */
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #4caf50;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+/* Text for Top 5 */
+.Text-for-top-5 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ff9800; /* Orange color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Text for Top Country */
+.Text-for-top-country {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.Text-for-top-country:hover {
+  background: linear-gradient(to right, #00f2fe, #4facfe);
+  transform: translateY(-5px);
+}
+
+/* Film Card Container */
+.film-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.all-films-header {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ff9800; /* Orange color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframe for Logo Spin */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Film Card Styles */
+.film-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.film-card h2 {
+  margin-top: 0;
+}
+
+.film-card p {
+  margin: 8px 0;
+}
