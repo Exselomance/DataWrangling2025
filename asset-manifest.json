@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/DataWrangling2025/static/css/main.0dea4879.css",
+    "main.js": "/DataWrangling2025/static/js/main.327718af.js",
+    "static/js/453.d855a71b.chunk.js": "/DataWrangling2025/static/js/453.d855a71b.chunk.js",
+    "static/media/money-png-40452.png": "/DataWrangling2025/static/media/money-png-40452.3a3e64a32088543a6e5b.png",
+    "static/media/for_start_web.jpg": "/DataWrangling2025/static/media/for_start_web.606cffea8c9544bbbf27.jpg",
+    "index.html": "/DataWrangling2025/index.html",
+    "main.0dea4879.css.map": "/DataWrangling2025/static/css/main.0dea4879.css.map",
+    "main.327718af.js.map": "/DataWrangling2025/static/js/main.327718af.js.map",
+    "453.d855a71b.chunk.js.map": "/DataWrangling2025/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dea4879.css",
+    "static/js/main.327718af.js"
+  ]
+}
